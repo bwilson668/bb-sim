@@ -1,7 +1,7 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: "bb-transform"
+name: "bb_transform"
 version: "1.0.0"
 
 # This setting configures which "profile" dbt uses for this project.
@@ -28,7 +28,7 @@ clean-targets: # directories to be removed by `dbt clean`
 # as tables. These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-    bb-transform:
+    bb_transform:
         # Applies to all files under models/example/
         example:
             materialized: view
